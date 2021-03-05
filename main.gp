@@ -1,3 +1,2 @@
-/* dummy example */
-f(x) = nextprime(Pi << x);
-print(f(100))
+encode(m)=fromdigits(Vec(Vecsmall(m)),128);
+[n,c] = readvec("input.txt");
